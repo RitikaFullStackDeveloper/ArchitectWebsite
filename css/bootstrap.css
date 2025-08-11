@@ -188,6 +188,10 @@ td,
 th {
   padding: 0;
 }
+.home-container{
+  width: 100%;
+  height: 820px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
