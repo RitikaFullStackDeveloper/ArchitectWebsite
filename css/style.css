@@ -164,10 +164,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
+	/* height: 100%; */
 	display: table;
 	width: 100%;
-	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center bottom;
+	/* padding: 0; */
+	background: url(https://images2.alphacoders.com/134/1347182.png) no-repeat center bottom;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -176,6 +177,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.40);
+
 }
 .intro h1 {
 	color: #fff;
@@ -203,7 +205,8 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	/* padding: 120px 0; */
+	padding: 50px ;
 	background: #f6f6f6;
 }
 #about h3 {
@@ -506,4 +509,16 @@ color: #777;
 }
 #footer a:hover {
 	color: #a7c44c;
+}
+
+
+/* media query for XR */
+@media (min-width: 400px) and (max-width: 896px) {
+	h2 {
+		margin: 0 0 20px 0;
+		font-weight: 500;
+		font-size: 15px;
+		color: #333;
+		text-transform: uppercase;
+	}
 }
